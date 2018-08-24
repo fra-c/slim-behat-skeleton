@@ -18,7 +18,7 @@ Create `.env` file and optionally edit to your needs:
 
 Run Behat tests with:
 
-`docker-compose run --rm php bin/behat`
+`docker-compose run --rm php vendor/bin/behat`
 
 ## Composer command
 
