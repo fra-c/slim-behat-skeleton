@@ -30,3 +30,4 @@ Example:
 
 `docker run -it --rm -v $(pwd):/app composer require --dev phpunit/phpunit`
 
+__Note__: Sometimes packages require extensions that won't be found in the composer image. To fix the problem run composer adding the flag `--ignore-platform-reqs` 
